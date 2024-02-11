@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .flag {
+            width: 300px;
+            height: 200px;
+            position: relative;
+            background-color: #f7d117; /* Yellow */
+            border: 1px solid #000;
+        }
+
+        .horizontal-band {
+            position: absolute;
+            width: 100%;
+            height: 100px;
+            background-color: #ed1c24; /* Red */
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .state-emblem {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+            height: 50px;
+            background-color: #009639; /* Green for state emblem */
+            border-radius: 50%;
+            border: 1px solid #000;
+        }
+    </style>
+    <title>Karnataka Flag</title>
+</head>
+<body>
+
+    <div class="flag">
+        <div class="horizontal-band"></div>
+        <div class="state-emblem"></div>
+    </div>
+
+</body>
+</html>
